@@ -13,7 +13,7 @@ sh'javac hello4.java'
 }
 stage('Test'){
 steps{
-sh'hello4.java'
+sh'java hello4'
 }
 }
 }
