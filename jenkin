@@ -3,17 +3,17 @@ agent any
 stages {
 stage('clone'){
 steps{
-git'https://github.com/JyothiK512/pro12.git'
+git 'https://github.com/JyothiK512/pro12.git'
 }
 }
 stage('Build'){
 steps{
-sh'javac hello4.java'
+sh 'javac hello4.java'
 }
 }
 stage('Test'){
 steps{
-sh'java hello4'
+sh 'java hello4'
 }
 }
 }
